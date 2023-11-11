@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(../font/Outfit-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(../font/Outfit-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(../font/Outfit-Medium.ttf);
+    font-weight: 500;
+}
+
+

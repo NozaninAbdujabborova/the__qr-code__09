@@ -1,0 +1,114 @@
+@import url(./fonts.css);
+
+:root {
+    --White: #fff;
+    --Blue: #2C7DFA;
+    --Dark-Navy: #1F314F;
+    --Grey: #7D889E;
+    --Light-Grey: #D5E1EF;
+    --Outfit: "Outfit";
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 18px;
+    line-height: 32px;
+    background: var(--Light-Grey);
+    font-family: var(--Outfit);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 288px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    background: #ECF2FF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--Outfit);
+}
+
+/* Site-header */
+.qrkod-card {
+    max-width: 320px;
+    width: 100%;
+    height: 288px;
+    border-radius: 20px;
+    background: var(--White);
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrkod-score {
+    max-width: 368px;
+    width: 100%;
+    border-radius: 32px;
+    background: var(--White);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 38px 0 55px;
+}
+
+.qrkod__title {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    background: var(--Blue);
+}
+
+.qrkod__logo{
+   padding: 65px;
+}
+
+.qrkod-score__title {
+    max-width: 288px;
+    width: 100%;
+    padding-top: 24px;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    font-family: var(--Outfit);
+}
+
+.qrkod-score__text {
+    color: var(--Grey);
+    max-width: 256px;
+    width: 100%;
+    font-size: 15px;
+    font-family: var(--Outfit);
+    font-weight: 400;
+    text-align: center;
+    padding-top: 16px;
+    letter-spacing: 0.188px;
+}
+
+/* site-header */
